@@ -1,13 +1,10 @@
 ## Project 1 编程实现音乐节奏或旋律的可视化
-使用 python 编程实现音频可视化。使用到了 pyaudio[^pyaudio], wave[^wave], librosa[^librosa], numpy[^numpy] 库。
-[^pyaudio]: https://www.opengl.org/
-[^wave]: https://pythonhosted.org/Wave/
-[^librosa]: http://librosa.github.io/librosa/
-[^numpy]: https://numpy.org/
+使用 python 编程实现音频可视化。使用到了 [pyaudio](https://www.opengl.org/), [wave](https://pythonhosted.org/Wave/), [librosa](http://librosa.github.io/librosa/), [numpy](https://numpy.org/) 库。
+
 ### 1. 文件目录
 ```
 .
-├── demo.mov          // 截屏演示视频，文件太大没有放在邮件附件中，参见GitHub链接
+├── demo.mov          // 截屏演示视频
 ├── main.py           // 源代码
 ├── readme.md         // markdown报告
 ├── report_PJ1.pdf    // pdf报告
