@@ -6,6 +6,7 @@ import PIL.Image as Image
 texture_file = 'texture.jpg'
 
 def get_light():
+    # 采用光滑着色
     glShadeModel(GL_SMOOTH)
     # 制定光源位置
     glLightfv(GL_LIGHT0, GL_POSITION, [-.5, .5, 1.5, 1.])
